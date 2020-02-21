@@ -1,9 +1,9 @@
 //========================================
-// Color Variables
+// Variables
 //========================================
 
 
-//Descriptive Colors
+//Colors
 $Purple-Mountain-Majesty     :#927BC1;
 $coral                       :#fd7856;
 $french-lilac                :#deb2ee;
@@ -16,12 +16,9 @@ $sunglo                      :#e4757a;
 $emerald                     :#63cc82;
 $malibu                      :#51ddfc;
 
-//Functional Colors
 $color-primary               :#58e1c1;
 $color-secondary             :$malibu;
-$color-text-default          :#fff;
+$color-text-default          :#777;
 
-
-//========================================
 // Media Query Breakpoints
-//========================================
+$min-width                   :768px;
