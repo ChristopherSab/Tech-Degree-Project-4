@@ -1,24 +1,30 @@
 //========================================
-// Variables
+//           Global Variables
 //========================================
 
 
-//Colors
-$Purple-Mountain-Majesty     :#927BC1;
-$coral                       :#fd7856;
-$french-lilac                :#deb2ee;
-$anakiwa                     :#7ee6fd;
-$vista-blue                  :#88d9a0;
-$fountain-blue               :#4da2bb;
-$sea-pink                    :#ec9fa3;
-$vivid-tangerine             :#fd9f85;
-$sunglo                      :#e4757a;
-$emerald                     :#63cc82;
-$malibu                      :#51ddfc;
+//Main Colors
 
 $color-primary               :#58e1c1;
-$color-secondary             :$malibu;
+$color-secondary             :#51ddfc;
 $color-text-default          :#777;
+
+//Column Color Themes 
+
+$themes: (
+    '.theme.col-1': #927BC1,
+    '.theme.col-2': #fd7856,
+    '.theme.col-3': #deb2ee,
+    '.theme.col-4': #7ee6fd,
+    '.theme.col-5': #88d9a0,
+    '.theme.col-6': #4da2bb,
+    '.theme.col-7': #ec9fa3,
+    '.theme.col-8': #fd9f85,
+    '.theme.col-9': #e4757a,
+    '.theme.col-10': #63cc82,
+    '.theme.col-11': #51ddfc,
+    '.theme.col-12': #80e8d1,
+);
 
 //font-stack
 $stack-lato                  :'Lato', sans-serif;
