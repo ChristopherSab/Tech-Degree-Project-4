@@ -3,7 +3,13 @@
   // ============================================= 
 
   .container {
-    padding: 0 10px;
+    padding: 0 10px; 
+    @media (min-width: $break-s ) {
+        max-width: 1400px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
   }
   
   .row {
@@ -20,13 +26,14 @@
     border-radius: 5px;
   }
 
-   @for $i from 1 through 12 {
-    .theme.col-#{$i} {
+  @for $i from 3 through 12 {
+    .theme.col-#{$i}{
         @each $name, $theme in $themes{
-            background-color: map-get($theme, $i);
+            background-color: (map-get($theme, $i));
         }
     }
    }
+
   
   .card {
     flex-basis: 100%;
