@@ -26,15 +26,13 @@
     border-radius: 5px;
   }
 
-  @for $i from 3 through 12 {
-    .theme.col-#{$i}{
-        @each $name, $theme in $themes{
-            background-color: (map-get($theme, $i));
-        }
-    }
-   }
 
-  
+   @each $name, $theme in $themes {
+    #{$name} {
+      background-color: $theme;
+    }
+  }
+
   .card {
     flex-basis: 100%;
   }
