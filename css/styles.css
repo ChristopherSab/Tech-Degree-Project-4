@@ -456,6 +456,17 @@ a {
   padding: 10px;
   border-radius: 5px;
 }
+[class^=col] + [class^=col] {
+  margin-left: 10px;
+}
+@media (min-width: 768px) {
+  [class^=col] {
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+    align-items: center;
+  }
+}
 
 .theme.col-1 {
   background-color: #927BC1;
