@@ -542,6 +542,11 @@ a {
   width: 100%;
   transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 }
+@media (min-width: 768px) {
+  .nav-link {
+    flex-basis: 100px;
+  }
+}
 
 .nav-link:hover {
   color: #fff;

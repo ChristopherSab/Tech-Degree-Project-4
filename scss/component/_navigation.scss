@@ -23,6 +23,9 @@
     transition: 
       background-color .2s ease-in-out, 
       color .2s ease-in-out;
+    @media (min-width: $break-s){
+      flex-basis: 100px;
+    }
   }
   
   .nav-link:hover {
