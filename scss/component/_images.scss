@@ -9,7 +9,7 @@
     max-height: 100%;
   }
   
-  .img-frame {
+.img-frame {
     @include centered;
     margin-top: 10px;
     max-width: 100%;
@@ -17,7 +17,7 @@
     border: 1px solid #ccc;
   }
   
-  .img-logo {
+.img-logo {
     @include centered;
   }
   
