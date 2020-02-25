@@ -8,6 +8,8 @@
     margin-right: auto;
 }
 
-@mixin media-query($size) {
-    min-width: $size;
+@mixin mq ($break-s) {
+    @media (min-width: $break-s) {
+        @content;
+    }
 }
