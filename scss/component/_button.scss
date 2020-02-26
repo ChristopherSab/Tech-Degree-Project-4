@@ -8,20 +8,34 @@
     color: $color-tertiary;
     text-transform: uppercase;
     border-radius: 5px;
-  }
-
-  @each $i, $color in $button-colors {
-
-    #{$i}{
-      background-color: $color;
-    }
-
-  }
-
-  @each $i, $color in $button-colors{
-    .btn:hover{
-      background-color: lighten(#{$color}, 15);
+    @each $key, $color in $button-colors{
+      &.#{$key} {
+        background-color: $color;
+        &:hover{
+          background-color: lighten($color, 15%);
+        }
+      }
     }
   }
 
+
+  .default {
+    background-color: $default;
+  }
+  
+  .error {
+    background-color: $error;
+  }
+  
+  .info {
+    background-color: $info;
+  }
+  
+  .success {
+    background-color: $success;
+  }
+  
+  .warning {
+    background-color: $warning;
+  }
   
