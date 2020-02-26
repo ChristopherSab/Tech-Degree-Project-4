@@ -20,4 +20,11 @@
 .img-logo {
     @include centered;
   }
+
+.logo {
+  @include mq($break-s){
+    margin-left: initial;
+    margin-right: initial;
+  }
+}
   
