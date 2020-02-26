@@ -9,6 +9,11 @@ $color-primary               :#58e1c1;
 $color-secondary             :#51ddfc;
 $color-tertiary              :#fff;  //This is for the buttons && navigation
 $color-text-default          :#777;
+$default                     :#51ddfc;
+$error                       :#e4757a;
+$info                        :#927bc1;
+$success                     :#63cc82;
+$warning                     :#fd7856;
 
 //Column Color Themes 
 $themes: (
@@ -26,14 +31,15 @@ $themes: (
     '.theme.col-12': #80e8d1
 );
 
-//Button Colors
+
+//Button Color Map
 
 $button-colors: (
-'.default':#51ddfc,
-'.error':#e4757a,
-'.info': #927bc1,
-'.success': #63cc82,
-'.warning': #fd7856
+'default': $default,
+'error': $error,
+'info': $info,
+'success': $success,
+'warning': $warning
 );
 
 // Media Query Breakpoints
