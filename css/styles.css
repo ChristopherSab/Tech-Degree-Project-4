@@ -382,6 +382,7 @@ a {
   color: #fff;
   text-transform: uppercase;
   border-radius: 5px;
+  transition: background-color 0.4s ease-out;
 }
 .btn.default {
   background-color: #51ddfc;
