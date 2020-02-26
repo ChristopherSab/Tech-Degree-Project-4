@@ -414,6 +414,11 @@ a {
 .btn.warning:hover {
   background-color: #feb4a2;
 }
+@media (min-width: 768px) {
+  .btn {
+    padding: 10px 30px;
+  }
+}
 
 .default {
   background-color: #51ddfc;
