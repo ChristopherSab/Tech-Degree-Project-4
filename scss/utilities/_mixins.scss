@@ -8,8 +8,10 @@
     margin-right: auto;
 }
 
+// Media Query Mixin
+
 @mixin mq ($break-s) {
-    @media (min-width: $break-s) {
+    @media (min-width: $break-s) { 
         @content;
     }
 }
