@@ -586,11 +586,11 @@ a {
   .col-12 {
     flex-basis: 99.996%;
   }
-}
-.centered.col-7 {
-  margin: 0 auto;
-}
 
+  .centered.col-7 {
+    margin: 0 auto;
+  }
+}
 .nav {
   padding-left: 0;
   flex-basis: 100%;
